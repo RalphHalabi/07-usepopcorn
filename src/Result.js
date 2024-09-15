@@ -1,4 +1,4 @@
-export default function Result({ movies }) {
+export default function Result({ movies = [] }) {
   return (
     <p className="num-results">
       Found <strong>{movies.length}</strong> results
