@@ -72,6 +72,7 @@ export default function AppCopy() {
       return;
     }
 
+    handleCloseMovie();
     fetchMovies();
 
     return function () {
