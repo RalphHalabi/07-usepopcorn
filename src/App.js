@@ -18,7 +18,7 @@ export default function AppCopy() {
   const [watched, setWatched] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
-  const [query, setQuery] = useState("jumanji");
+  const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState(null);
 
   function handleSelectMovie(id) {
