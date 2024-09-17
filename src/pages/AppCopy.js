@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
 import Main from "./Main";
-import Result from "./Result";
-import Search from "./Search";
+import Result from "../components/Result";
+import Search from "../components/Search";
 import Box from "./Box";
-import MovieList from "./MovieList";
-import WatchedSummary from "./WatchedSummary";
-import WatchedMoviesList from "./WatchedMoviesList";
+import MovieList from "../MovieList";
+import WatchedSummary from "../WatchedSummary";
+import WatchedMoviesList from "../WatchedMoviesList";
 
 const tempMovieData = [
   {

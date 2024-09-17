@@ -1,17 +1,17 @@
 import { useState } from "react";
-import NavBar from "./NavBar";
+import NavBar from "../components/NavBar";
 import Main from "./Main";
-import Result from "./Result";
-import Search from "./Search";
+import Result from "../components/Result";
+import Search from "../components/Search";
 import Box from "./Box";
-import MovieList from "./MovieList";
-import WatchedSummary from "./WatchedSummary";
-import WatchedMoviesList from "./WatchedMoviesList";
-import Loader from "./Loader";
-import ErrorHandler from "./ErrorHandler";
-import MovieDetails from "./MovieDetails";
-import { useMovies } from "./useMovies";
-import { useLocalStorageState } from "./useLocalStorageState";
+import MovieList from "../MovieList";
+import WatchedSummary from "../WatchedSummary";
+import WatchedMoviesList from "../WatchedMoviesList";
+import Loader from "../components/Loader";
+import ErrorHandler from "../error-handler/ErrorHandler";
+import MovieDetails from "../MovieDetails";
+import { useMovies } from "../useMovies";
+import { useLocalStorageState } from "../custom-hooks/useLocalStorageState";
 
 const KEY = "79ca0d6f";
 

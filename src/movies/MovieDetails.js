@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import StarRating from "./StarRating";
-import Loader from "./Loader";
-import { useKey } from "./useKey";
+import StarRating from "./components/StarRating";
+import Loader from "./components/Loader";
+import { useKey } from "./custom-hooks/useKey";
 
 export default function MovieDetails({
   selectedId,
